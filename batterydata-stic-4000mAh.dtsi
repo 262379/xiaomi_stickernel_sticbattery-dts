@@ -19,7 +19,7 @@ qcom,stic_4000mah {
 	qcom,fg-cc-cv-threshold-mv = <4430>;
 	qcom,batt-id-kohm = <80>;
 	qcom,battery-beta = <3460>;
-	qcom,battery-type = "sticbattery_4000mah";
+	qcom,battery-type = "stic_4000mah";
 	qcom,jeita-fcc-ranges = <0   50   330000
 			51  100  990000
 			101  150  990000
@@ -39,18 +39,18 @@ qcom,stic_4000mah {
 	qcom,gui-version = "PMI8998GUI - 2.0.0.58";
 	qcom,fg-profile-data = [
 		 64 1F B8 05
-		 8F 0A 0F 06
-		 A0 1D F3 FC
+		 3C EB 54 E4
+		 3F 18 FF 22
 		 41 13 70 1D
 		 1E 18 1E 23
 		 92 45 88 52
 		 52 00 00 00
-		 12 00 00 00
-		 00 00 04 00
+		 55 00 00 00
+		 0E 00 00 00
 		 FD D4 68 C3
 		 23 00 08 00
-		 C3 D2 52 DC
-		 33 05 BB FB
+		 CA F3 82 3A
+		 2A 09 40 40
 		 84 05 BE 13
 		 18 07 9E 2B
 		 21 06 09 20
@@ -67,26 +67,18 @@ qcom,stic_4000mah {
 		 03 00 27 B2
 		 1A 00 00 00
 		 FE E2 52 DC
-		 FE 05 79 FA
-		 56 05 D5 FA
-		 27 F5 5C 22
-		 BC 33 CC FF
-		 07 10 00 00
+		 85 03 35 F4
+		 4D 1D 37 F2
+		 23 0A 79 15
+		 B7 18 32 23
+		 26 45 72 53
 		 F0 0E 66 46
 		 1A 00 40 00
 		 A7 01 0A FA
+		 0D 00 00 00
+		 00 00 13 CC
+		 03 00 98 BD
 		 FF 00 00 00
-		 00 00 00 00
-		 00 00 00 00
-		 00 00 00 00
-		 00 00 00 00
-		 00 00 00 00
-		 00 00 00 00
-		 00 00 00 00
-		 00 00 00 00
-		 00 00 00 00
-		 00 00 00 00
-		 00 00 00 00
 		 00 00 00 00
 		 00 00 00 00
 		 00 00 00 00
